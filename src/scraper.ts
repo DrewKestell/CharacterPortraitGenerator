@@ -34,7 +34,7 @@ const processImage = async (page: playwright.Page) => {
   const util = require('util');
   const exec = util.promisify(require('child_process').execFile);
   const options = {
-    cwd: "C:\\Repos\\painter\\bin\\Release\\net5.0",
+    cwd: "C:\\Users\\Drew\\Repos\\painter\\bin\\Release\\net5.0",
     stdio: "inherit"
   }
   const promise = exec("Painter.exe", [`C:\\CharacterPortraits\\Input\\${uuid}.png`, `C:\\CharacterPortraits\\Output\\${uuid}.png`, "512", "false"], options);
