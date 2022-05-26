@@ -1,0 +1,4 @@
+*.png
+*.csv
+node_modules
+dist

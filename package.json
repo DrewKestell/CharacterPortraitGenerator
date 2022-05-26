@@ -1,0 +1,21 @@
+{
+  "name": "webscraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scraper.js",
+  "scripts": {
+    "build": "tsc --p ./tsconfig.json",
+    "start": "node ./dist/scraper.js",
+    "test": "node ./dist/test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.17.1",
+    "typescript": "^4.5.4",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35"
+  }
+}
