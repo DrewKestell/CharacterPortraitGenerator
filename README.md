@@ -1,3 +1,5 @@
+# Character Portrait Generator
+
 Playwright driven automation that generates stylized character portraits.
 
 Original portraits are generated from [this-person-does-not-exist](https://this-person-does-not-exist.com/en) using AI.
